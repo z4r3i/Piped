@@ -1,16 +1,8 @@
 <template>
     <footer class="mt-10 w-full rounded-xl py-4 text-center children:(mx-3)">
-        <a aria-label="GitHub" href="https://github.com/TeamPiped/Piped" target="_blank">
+        <a aria-label="GitHub" href="https://github.com/zarei" target="_blank">
             <i class="i-fa6-brands:github" />
             <span v-t="'actions.source_code'" class="ml-2" />
-        </a>
-        <a href="https://docs.piped.video/" target="_blank">
-            <i class="i-fa6-solid:book" />
-            <span v-t="'actions.documentation'" class="ml-2" />
-        </a>
-        <a href="https://github.com/TeamPiped/Piped#donations" target="_blank">
-            <i class="i-fa6-brands:bitcoin" />
-            <span v-t="'actions.donations'" class="ml-2" />
         </a>
         <a v-if="statusPageHref" :href="statusPageHref">
             <i class="i-fa6-solid:server" />
