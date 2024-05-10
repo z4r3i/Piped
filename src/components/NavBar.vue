@@ -1,8 +1,6 @@
 <template>
     <nav class="relative w-full flex flex-wrap items-center justify-center px-2 pb-2.5 sm:px-4">
-        <div class="flex flex-1 justify-start">
-            
-        </div>
+        
         <div class="search-container lt-md:hidden">
             <input
                 ref="videoSearch"
